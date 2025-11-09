@@ -2,6 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         /**
+         * test
          * Given an array of integers 'nums'and an integer 'target', retun indices of
          * the two numbers such that they add up to the target.
          * 
