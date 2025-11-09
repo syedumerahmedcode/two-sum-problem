@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -15,5 +17,12 @@ public class App {
          * ans: [1,2] or[2,1]
          */
         System.out.println("Hello, World!");
+        int[] nums = { 2, 7, 11, 5 };
+        int target = 9;
+        Solution solution = new Solution();
+        int[] twoSum = solution.twoSum(nums, target);
+        System.out
+                .println("The two numbers that form the target sum are at locations: "
+                        + Arrays.toString(twoSum));
     }
 }
